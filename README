@@ -1,0 +1,13 @@
+Install prawn gem
+
+  Edit config/environment.rb
+    config.gem "prawn"
+
+  sudo gem install prawn
+
+
+
+Update prawnto plugin
+
+  git submodule init
+  git submodule update
