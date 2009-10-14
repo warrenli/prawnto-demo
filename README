@@ -7,7 +7,14 @@ Install prawn gem
 
 
 
-Update prawnto plugin
+Install prawnto as submodule
+
+  script/plugin install git://github.com/thorny-sun/prawnto.git
+  git submodule add git://github.com/thorny-sun/prawnto.git vendor/plugins/prawnto
+
+
+
+Update init/update prawnto plugin
 
   git submodule init
   git submodule update
